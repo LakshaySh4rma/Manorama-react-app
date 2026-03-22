@@ -6,156 +6,135 @@ export default function Terms() {
           Terms & Conditions
         </h1>
 
-        <p className="text-gray-700 text-lg text-center mb-10 leading-relaxed">
-          Welcome to IndiaFilings.com. This website is owned and operated by
-          IndiaFilings Private Limited, 6th Floor, KRM Centre, Harrington Road,
-          Chetpet, Chennai - 600031, India. By visiting our website and
-          accessing the information, resources, services, products, and tools we
-          provide, you understand and agree to accept and adhere to the
-          following terms and conditions as stated in this policy (hereafter
-          referred to as 'User Agreement'), along with the terms and conditions
-          as stated in our Privacy Policy (please refer to the Privacy Policy
-          section below for more information). We reserve the right to change
-          this User Agreement from time to time without notice. You acknowledge
-          and agree that it is your responsibility to review this User Agreement
-          periodically to familiarize yourself with any modifications. Your
-          continued use of this site after such modifications will constitute
-          acknowledgment and agreement of the modified terms and conditions.
-        </p>
-
-        {/* Section */}
         <div className="mb-10 border-l-4 border-red-500 pl-6">
-          <h2 className="text-2xl font-semibold mb-3">1. Website Usage</h2>
-
-          <p className="text-gray-700 leading-relaxed">
-            In order to access our Resources, you may be required to provide
-            certain information about yourself (such as identification, email,
-            phone number, contact details, etc.) as part of the registration
-            process, or as part of your ability to use the Resources. You agree
-            that any information you provide will always be accurate, correct,
-            and up to date. You are responsible for maintaining the
-            confidentiality of any login information associated with any account
-            you use to access our Resources. Accordingly, you are responsible
-            for all activities that occur under your accounts. IndiaFilings
-            Private Limited's service obligation is considered complete once
-            access to our platform is granted. All subsequent responsibilities
-            and the final outcome of the service are solely the client's
-            responsibility. Accessing (or attempting to access) any of our
-            Resources by any means other than through the means we provide, is
-            strictly prohibited. You specifically agree not to access (or
-            attempt to access) any of our Resources through any automated,
-            unethical or unconventional means. Engaging in any activity that
-            disrupts or interferes with our Resources, including the servers
-            and/or networks to which our Resources are located or connected, is
-            strictly prohibited. Attempting to copy, duplicate, reproduce, sell,
-            trade, or resell our resources is strictly prohibited. You are
-            solely responsible for any consequences, losses, or damages that we
-            may directly or indirectly incur or suffer due to any unauthorized
-            activities conducted by you, as explained above, and may incur
-            criminal or civil liability. We may provide various open
-            communication tools on our website, such as blog comments, blog
-            posts, public chat, forums, message boards, newsgroups, product
-            ratings and reviews, various social media services, etc. You
-            understand that generally we do not pre-screen or monitor the
-            content posted by users of these various communication tools, which
-            means that if you choose to use these tools to submit any type of
-            content to our website, then it is your personal responsibility to
-            use these tools in a responsible and ethical manner. By posting
-            information or otherwise using any open communication tools as
-            mentioned, you agree that you will not upload, post, share, or
-            otherwise distribute any content that: Is illegal, threatening,
-            defamatory, abusive, harassing, degrading, intimidating, fraudulent,
-            deceptive, invasive, racist, or contains any type of suggestive,
-            inappropriate, or explicit language; Infringes on any trademark,
-            patent, trade secret, copyright, or other proprietary right of any
-            party; Contains any type of unauthorized or unsolicited advertising;
-            Impersonates any person or entity, including any IndiaFilings Home
-            employees or representatives. We have the right at our sole
-            discretion to remove any content that, we feel in our judgment does
-            not comply with this User Agreement, along with any content that we
-            feel is otherwise offensive, harmful, objectionable, inaccurate, or
-            violates any 3rd party copyrights or trademarks. We are not
-            responsible for any delay or failure in removing such content. If
-            you post content that we choose to remove, you hereby consent to
-            such removal, and consent to waive any claim against us.
-          </p>
-        </div>
-
-        {/* Section */}
-        <div className="mb-10 border-l-4 border-red-500 pl-6">
-          <h2 className="text-2xl font-semibold mb-3">2. Donations</h2>
-
           <p className="text-gray-700 leading-relaxed mb-4">
-            All content and materials available on IndiaFilings Platform,
-            including but not limited to text, graphics, website name, code,
-            images and logos are the intellectual property of IndiaFilings
-            Private Limited, and are protected by applicable copyright and
-            trademark law. Any inappropriate use, including but not limited to
-            the reproduction, distribution, display or transmission of any
-            content on this site is strictly prohibited, unless specifically
-            authorized by IndiaFilings Private Limited. You agree that we may,
-            at our sole discretion, suspend or terminate your access to all or
-            part of our website and Resources with or without notice and for any
-            reason, including, without limitation, breach of this User
-            Agreement. Any suspected illegal, fraudulent or abusive activity may
-            be grounds for terminating your relationship and may be referred to
-            appropriate law enforcement authorities. Upon suspension or
-            termination, your right to use the Resources we provide will
-            immediately cease, and we reserve the right to remove or delete any
-            information that you may have on file with us, including any account
-            or login information.
-          </p>
-
-          <ul className="list-disc ml-6 text-gray-700 space-y-2">
-            <li>Education programs</li>
-            <li>Healthcare assistance</li>
-            <li>Community development</li>
-            <li>Emergency relief activities</li>
-          </ul>
-        </div>
-
-        {/* Section */}
-        <div className="mb-10 border-l-4 border-red-500 pl-6">
-          <h2 className="text-2xl font-semibold mb-3">
-            3. Intellectual Property
-          </h2>
-
-          <p className="text-gray-700 leading-relaxed">
-            This website is controlled by IndiaFilings Private Limited from our
-            offices located in the state of Tamil Nadu, India. It can be
-            accessed by most countries around the world. As each country has
-            laws that may differ from those of Tamil Nadu, India by accessing
-            our website, you agree that the statutes and laws of Tamil Nadu,
-            India without regard to the conflict of laws and the United Nations
-            Convention on the International Sales of Goods, will apply to all
-            matters relating to the use of this website and the purchase of any
-            products or services through this site. Furthermore, any action to
-            enforce this User Agreement shall be brought in the federal or state
-            courts located in Tamil Nadu, India. You hereby agree to personal
-            jurisdiction by such courts, and waive any jurisdictional, venue, or
-            inconvenient forum objections to such courts. You must ensure that
-            all Customer Information that you provide us with is accurate,
-            up-to-date, and true. You will be responsible for any errors,
-            discrepancies, or inaccuracies in the Customer Information you share
-            with us, except for such Customer Information that has been verified
-            through KYC processes set out by applicable law and backed by
-            documentary proof. When you use our Services, we make best efforts
-            to provide you with the ability to access and correct inaccurate or
-            deficient Customer Information, subject to any legal requirements.
+            The terms and conditions regardiing the Manorma Charitable Trust
+            website (http://manoramatrust.org) are mentioned below.
           </p>
         </div>
 
-        {/* Highlight */}
-        <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-10">
-          <h3 className="text-xl font-semibold text-red-600 mb-2">
-            Important Notice
-          </h3>
-
-          <p className="text-gray-700">
-            We reserve the right to update these terms at any time without prior
-            notice.
-          </p>
-        </div>
+        <ul className="list-disc ml-6 text-gray-700 space-y-2 mb-4">
+          <li className="mb-4">
+            Manorma Charitable Trust holds the discretion to modify the users
+            terms and conditions if need be. However it shall be effective
+            within a month of posting it in this section whenever it happens.
+          </li>
+          <li className="mb-4">
+            2. This is an agreement between Manorma Charitable Trust and the
+            user/visitor to the website. This Agreement governs the use of the
+            Manorma Charitable Trust web site, which includes contents like
+            text, information, images as well as all services available to the
+            users through the same.
+          </li>
+          <li className="mb-4">
+            Manorma Charitable Trust may modify the terms and conditions on this
+            site. You agree to review this agreement periodically to ensure you
+            are aware of any changes.
+          </li>
+          <li className="mb-4">
+            The services are available only to individuals (including minors)
+            who are eligible for legally binding contracts under applicable law
+          </li>
+          <li className="mb-4">
+            The content consists of copyrighted works proprietary to Manorma
+            Charitable trust or to partners/ third parties who have provided us
+            with content. Personal Information of Users.
+          </li>
+          <li className="mb-4">
+            6. In order to enable Manorma Charitable Trust to use the personal
+            information you supply us with, so that we are not violating any
+            rights you might have in that information, you agree to grant us a
+            non-exclusive, worldwide, perpetual, irrevocable, royalty-free, sub
+            licensable (through multiple tiers) right to exercise the copyright
+            and publicity rights (but no other rights) you have in personal
+            information, in any media now known or not currently known, with
+            respect to personal information. Manorma Charitable Trust will only
+            use personal information in accordance with our Privacy Policy.
+          </li>
+          <li className="mb-4">
+            7. The site & certain services will be accessible to users of the
+            website as identified in the Registration Forms or relevant
+            sections. All user information provided to us, including without
+            limitation the information on the Registration Forms, must be
+            current, accurate, and complete. If we at any time discover any
+            error or omission in the information you provide to us, we may, at
+            our option, terminate the right to access and use the site by any
+            user. The user is responsible for the acts or omissions by the use
+            of the site, and for any damages incurred by the user as a result
+            thereof.
+          </li>
+          <li className="mb-4">
+            You as the user and Manorma Charitable Trust are independent
+            contractors, and no agency, partnership, joint venture,
+            employee-employer, franchiser-franchisee or other business
+            relationship is intended or created by this Agreement.
+          </li>
+          <li className="mb-4">
+            The Donation online will go directly to buy the item selected plus
+            the costs of running this fundraising campaign.
+          </li>
+          <li className="mb-4">
+            10. Should the Manorma Charitable Trust raise over our target for a
+            particular appeal then we will use your donation to help other
+            vulnerable children around the world wherever the need is greatest.
+          </li>
+          <li className="mb-4">
+            Contributions must be your own, they must be civil and tasteful,
+            they must not contain any unlawful or objectionable content and they
+            must not infringe the law.
+          </li>
+          <li className="mb-4">
+            Manorma Charitable Trust owns all worldwide rights, titles and
+            interests in and to the site. You may create a bookmark in your
+            browser to the home page of the website.
+          </li>
+          <li className="mb-4">
+            Manorma Charitable Trust is dedicated to protecting the privacy of
+            its users.
+          </li>
+          <li className="mb-4">
+            Manorma Charitable Trust will not be responsible or liable to any
+            user of the website or its services for any direct, compensatory,
+            indirect, incidental, consequential, special, and exemplary or
+            punitive damages for any reason such as use of content, services,
+            errors, inaccuracies, omissions, defects, or any other causes.
+          </li>
+          <li className="mb-4">
+            15. The user has to agree to indemnify and hold us and our
+            subsidiaries, affiliates, officers, directors, agents, and
+            employees, harmless from any claim or demand, including reasonable
+            attorneys arising from or incurred as a result of, or in any manner
+            related to:
+          </li>
+          <li className="mb-4">
+            Any controversy or claim arising out of or relating to this
+            agreement or our services shall be settled by binding arbitration in
+            accordance with the commercial arbitration rules applicable to New
+            Delhi. Any such controversy or claim shall be arbitrated on an
+            individual basis, and shall not be consolidated in any arbitration
+            with any claim or controversy of any other party. The arbitration
+            shall be conducted at Mumbai, India and judgment on the arbitration
+            award may be entered into any court having jurisdiction thereof.
+            Either the user or Manorma Charitable Trust may seek any interim or
+            preliminary relief from a court of competent jurisdiction at Mumbai,
+            India necessary to protect the rights or property of the user or
+            Manorma Charitable Trust pending the completion of arbitration
+          </li>
+          <li className="mb-4">
+            Manorma Charitable Trust does not guarantee continuous,
+            uninterrupted or secure access to our services, and operation of our
+            site may be interfered with by numerous factors outside of our
+            control. Our failure to act with respect to a breach by the user or
+            others does not waive our right to act with respect to subsequent or
+            similar breaches. This Agreement sets forth the entire understanding
+            and agreement between us with respect to the subject matter hereof.
+            18. We as a merchant shall be under no liability whatsoever in
+            respect of any loss or damage arising directly or indirectly out of
+            the decline of authorization for any Transaction, on Account of the
+            Cardholder having exceeded the preset limit mutually agreed by us
+            with our acquiring bank from time to time”
+          </li>
+        </ul>
       </div>
     </div>
   );

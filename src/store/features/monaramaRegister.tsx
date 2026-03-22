@@ -1,63 +1,68 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-const initialState = {
-    data: null,
-    loading: false,
-    error: null,
-    status: null
+
+interface OrderState {
+  data: any;
+  loading: boolean;
+  error: string | null;
+  status: string | null;
 }
-//Add register data
-export const addOrder = createAsyncThunk("order/add", async (object, { rejectWithValue }) => {
-  try {
-    const orderDataObject = {
-      userId: object.userId,
-      address: "noida",
-      paymentMethod: "cod"
-    };
-    const res = await axios.post("http://localhost:8000/api/order/createOrder", orderDataObject);
-    return res.data;
-  } catch (error) {
-    return rejectWithValue(error.response?.data || "Failed to Order item");
-  }
-});
+
+const initialState: OrderState = {
+  data: null,
+  loading: false,
+  error: null,
+  status: null,
+};
+
+// Add register data
+export const addOrder = createAsyncThunk(
+  "order/add",
+  async (object: any, { rejectWithValue }) => {
+    try {
+      const orderDataObject = {
+        userId: object.userId,
+        address: "noida",
+        paymentMethod: "cod",
+      };
+
+      const res = await axios.post(
+        "http://localhost:8000/api/order/createOrder",
+        orderDataObject,
+      );
+
+      return res.data;
+    } catch (error: any) {
+      return rejectWithValue(error.response?.data || "Failed to Order item");
+    }
+  },
+);
 
 const orderSlice = createSlice({
   name: "order",
   initialState,
   reducers: {},
+
   extraReducers: (builder) => {
     builder
-      // Add Order
       .addCase(addOrder.pending, (state) => {
-        state.isLoading = true;
+        state.loading = true;
         state.error = null;
+        state.status = "loading";
       })
+
       .addCase(addOrder.fulfilled, (state, action) => {
-        state.isLoading = false;
-        state.orderItems = action.payload;
+        state.loading = false;
+        state.data = action.payload;
         state.status = "success";
       })
+
       .addCase(addOrder.rejected, (state, action) => {
-        state.isLoading = false;
-        state.error = action.payload;
+        state.loading = false;
+        state.error = action.payload as string;
         state.status = "failed";
-      })
-    //   // Order List
-    //   .addCase(orderList.pending, (state) => {
-    //     state.isLoading = true;
-    //     state.error = null;
-    //   })
-    //   .addCase(orderList.fulfilled, (state, action) => {
-    //     state.isLoading = false;
-    //     state.orderListDetails = action.payload;
-    //   })
-    //   .addCase(orderList.rejected, (state, action) => {
-    //     state.isLoading = false;
-    //     state.error = action.payload;
-    //   });
-  }
+      });
+  },
 });
 
 export default orderSlice.reducer;
-
-
